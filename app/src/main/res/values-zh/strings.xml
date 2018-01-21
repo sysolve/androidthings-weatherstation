@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">气象站</string>
+    <string name="temperature_text">温度 ℃</string>
+    <string name="barometer_text">气压 kPa</string>
+</resources>
