@@ -33,11 +33,18 @@ FATAL EXCEPTION: main
 
 这是因为Android Things不支持动态权限导致的，重启Android Things开发板，即可成功运行。
 
-屏幕上会显示当前的温度和气压，你可以把手放在传感器上使其温度上升，看到温度值的变化。
+屏幕上会显示当前的温度和气压，你可以把手放在传感器上使其温度上升，看到温度值的变化。屏幕界面效果如下：
 
 ![屏幕界面](https://github.com/sysolve/androidthings-weatherstation/blob/master/ui.png)
+
+实物接线图：
+![实物接线图](https://github.com/sysolve/androidthings-weatherstation/blob/master/photo.png)
 
 按照官网的例子，会根据气压值范围显示晴、多云、雨的图标，不过影响气压值的因素很多（海拔、季节），所以这个天气图标是不准确的，纯属娱乐。
 
 下一步工作
 ====
+
+后续会增加一些传感器，实现一个多功能的气象站。
+
+考虑到Google Cloud的可用性问题，接入阿里云IoT，实现传感器数据的发布。
