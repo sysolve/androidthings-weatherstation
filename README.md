@@ -37,6 +37,8 @@ FATAL EXCEPTION: main
 
 ![屏幕界面](https://github.com/sysolve/androidthings-weatherstation/blob/master/ui.png)
 
+如果不连接屏幕，也可以在Logcat中看到温度和气压的输出值。
+
 实物接线图：
 ![实物接线图](https://github.com/sysolve/androidthings-weatherstation/blob/master/photo.png)
 
