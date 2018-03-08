@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.sysolve.androidthings.weatherstation"
-        minSdkVersion 24
+        minSdkVersion 26
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -26,5 +26,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compileOnly 'com.google.android.things:androidthings:+'
 
-    implementation 'com.google.android.things.contrib:driver-bmx280:0.2'
+    implementation 'com.google.android.things.contrib:driver-bmx280:+'
 }
