@@ -113,7 +113,7 @@ public class MainActivity extends Activity {
         @Override
         public void onSensorChanged(SensorEvent event) {
             mLastTemperature = event.values[0];
-            Log.d(TAG, "温度值反馈: " + mLastTemperature+"℃");
+            Log.d(TAG, "温度反馈: " + mLastTemperature+"℃");
             updateTemperatureDisplay(mLastTemperature);
         }
 
@@ -128,7 +128,7 @@ public class MainActivity extends Activity {
         @Override
         public void onSensorChanged(SensorEvent event) {
             mLastPressure = event.values[0];
-            Log.d(TAG, "气压值反馈: " + mLastPressure*0.1 +"kPa");
+            Log.d(TAG, "气压反馈: " + mLastPressure*0.1 +"kPa");
             updateBarometerDisplay(mLastPressure);
             updateBarometer(mLastPressure);
         }
