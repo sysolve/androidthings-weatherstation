@@ -2,6 +2,10 @@
 
 Weather Station 气象站
 ====
+
+代码已升级到Android Things Developer Preview 8，建议先阅读我的《Android Things DP8新特性》一文，了解DP8中需要注意的地方。
+https://zhuanlan.zhihu.com/p/36168138
+
 这是一个从Android Things官方Weather Station简化而来的例子，去掉了联网和数码管显示，主要演示入门配件包中的BMP280气压温度传感器的用法。
 
 BMP280的连接：根据BMP280的定义
